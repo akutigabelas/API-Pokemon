@@ -1,0 +1,179 @@
+ /* The Modal (background) */
+ .container{
+    /* background-color:blue; */
+    padding: 50px;
+    position: relative;
+    
+ }
+ .form-row{
+    size: 40px;
+ }
+ .modal{
+    display: none; /* Hidden by default */
+    position: absolute; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 50%;
+    top: 50%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  /* .gambar{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    top: 10px; 
+    left: 180px;
+    margin-bottom: 20px;
+  } */
+  .type{
+    position: relative;
+    left: 180px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+  }
+  p.labelgr{
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+   
+  }
+  .grass{
+    padding: 5px;
+    border: 0px solid #04AA6D;
+    border-width: 2px;
+    border-radius: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: x-small;
+
+    
+  }
+  .poison{
+    padding: 5px;
+    border: 0px solid #04AA6D;
+    border-width: 2px;
+    border-radius: 10px;
+    
+  }
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  } 
+  .modal-header{
+    background-color: rgb(8, 8, 7);
+    font-family: "Press Start 2P", cursive
+    
+  }
+  .modal-body{
+    background-color: rgb(17, 17, 14);
+    border-top: 0px;
+  }
+  .modal-footer{
+    padding-bottom: 10px;
+    background-color: rgb(14, 13, 12);
+  }
+  .tabs{
+    margin-top: 20px;
+  }
+
+  .nav-link{
+    color: rgb(255, 255, 255);
+  }
+  .nav-link:hover{
+    color: rgb(255,255,255);
+  }
+
+  #myProgress {
+    width: 100%;
+    background-color: #ddd;
+    border: 0px solid #f5f7f6;
+    border-width: 2px;
+    border-radius: 10px;
+  }
+  
+  #myBar1 {
+    width: 45%;
+    height: 30px;
+    background-color: #04AA6D;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border: 0px solid #f5f7f6;
+    border-width: 2px;
+    border-radius: 10px;
+    
+  }
+  #myBar2 {
+    width: 49%;
+    height: 30px;
+    background-color: #04AA6D;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border: 0px solid #f5f7f6;
+    border-width: 2px;
+    border-radius: 10px;
+  }
+  #myBar3 {
+    width: 49%;
+    height: 30px;
+    background-color: #04AA6D;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border: 0px solid #f5f7f6;
+    border-width: 2px;
+    border-radius: 10px;
+  }
+  #myBar4 {
+    width: 65%;
+    height: 30px;
+    background-color: #04AA6D;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border: 0px solid #f5f7f6;
+    border-width: 2px;
+    border-radius: 10px;
+  }
+  #myBar5 {
+    width: 65%;
+    height: 30px;
+    background-color: #04AA6D;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border: 0px solid #f5f7f6;
+    border-width: 2px;
+    border-radius: 10px;
+  }
+  #myBar6 {
+    width: 45%;
+    height: 30px;
+    background-color: #04AA6D;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border: 0px solid #f5f7f6;
+    border-width: 2px;
+    border-radius: 10px;
+  }
+
+  .tabcontent{
+    font-family: 'Press Start 2P', cursive;
+  }
